@@ -15,17 +15,24 @@
     </div>
     <!-- Choose the encryption method   -->
     <form action="index.html">
+        <label for="plain-text">Enter the plain text</label>
+        <input type="text">
+        <hr>
         <label for="cipher-select">Choose an encryption method:</label>
 
         <select name="cipher" id="cipher-methods">
             <option value="">--Please choose an option--</option>
             <option value="multi-tap">Multi-tap</option>
-            <option value="progressive">Multi-tap</option>
+            <option value="progressive">progressive</option>
 
     
         </select>
+        <hr>
 
         <input type="submit" value="Encrypt">
+        <hr>
+
+        <label for="" class="cipher-result">Here is your result</label>
     </form>
     
     <script type="module" src="main.js" ></script>
